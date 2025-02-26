@@ -23,7 +23,7 @@ NOTE: Set it to "false" or only "" to not use the client folder, so everything w
       "name": "bin"
     }
   ],
-  "clientFolder": false,
+  "clientFolder": "PlayOT",
   "newClientUrl": "https://github.com/hhenriqu/canary-launcher/releases/download/published/playot_v0.1.0.zip",
   "clientExecutable": "client.exe"
 }
