@@ -7,7 +7,7 @@
 		xmlns:local="clr-namespace:CanaryLauncherUpdate"
 		Icon="pack://application:,,,/Assets/launcher_ico.png"
 		mc:Ignorable="d" 
-		Height="400"
+		Height="520"
 		Width="800"
 		FontFamily="Verdana"
 		Background="#131415"
@@ -72,7 +72,7 @@
 			Margin="0, 15">
 			<Image
 				x:Name="ImageLogoServer"
-				Height="120"
+				Height="180"
 				Source="{StaticResource LogoKey}"
 				Stretch="Uniform"
 				HorizontalAlignment="Center"
@@ -205,7 +205,7 @@
 					FontFamily="Verdana"
 					FontSize="12"
 					FontWeight="Bold"
-					Foreground="#909090">Genesis</TextBlock>
+					Foreground="#909090">Sobre o servidor</TextBlock>
 				<Grid
 					Grid.Row="1"
 					Margin="10, 3, 10, 3">
@@ -220,15 +220,19 @@
 						Source="{StaticResource RhLoreKey}"
 						Width="60"
 						Stretch="Uniform"></Image>
-					<TextBlock
-						Grid.Column="1"
-						x:Name="hintsBox"
-						Margin="5, 0, 0, 0"
-						Foreground="#bfbfbf"
-						FontFamily="Verdana"
-						FontSize="12">A new goddess stepped out of the void like a new-born mermaid from<LineBreak/> her shell.
-						The amazed elder gods watched her divine beauty in awed<LineBreak/> admiration,
-						for everything in her was perfect harmony. They agreed<LineBreak/> to call her Tibiasula.</TextBlock>
+<TextBlock
+    Grid.Column="1"
+    x:Name="hintsBox"
+    Margin="5, 0, 0, 0"
+    Foreground="#bfbfbf"
+    FontFamily="Verdana"
+    FontSize="12">
+    Bem-vindo ao <Run FontWeight="Bold">PlayOT</Run>, o servidor casual da TibiaPlaybook!<LineBreak/>
+    Nosso objetivo é democratizar o Tibia, proporcionando diversão para todos,<LineBreak/>
+    sem perder a essência e a emoção do jogo. Com features interessantes,<LineBreak/>
+    mantemos o equilíbrio entre praticidade e a necessidade de habilidade.<LineBreak/>
+    Venha fazer parte dessa aventura e descubra um mundo de possibilidades!
+</TextBlock>
 				</Grid>
 
 			</Grid>
@@ -263,7 +267,7 @@
 					x:Name="ImageLogoCompany"
 					Grid.Column="1"
 					Source="{StaticResource LogoCompanyKey}"
-					Height="22"
+					Height="88"
 					Stretch="Uniform"
 					VerticalAlignment="Top"
 					HorizontalAlignment="Center"
